@@ -231,7 +231,7 @@ document.addEventListener('DOMContentLoaded', function() {
             row.innerHTML = `
                 <td>${index + 1}</td>
                 <td>${item.rollNo}</td>
-                <td>${item.name}</td>
+                
                 <td>₹${item.amount.toFixed(2)}</td>
                 <td>
                     <span class="payment-status ${item.payment === 'cash' ? 'payment-cash' : 
